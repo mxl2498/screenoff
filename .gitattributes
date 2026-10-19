@@ -1,0 +1,11 @@
+# Windows scripts must keep CRLF line endings
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# sources and docs use LF
+*.c    text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+
+ScreenOff.exe binary

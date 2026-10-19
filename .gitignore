@@ -1,0 +1,9 @@
+# TinyCC is fetched on demand by build.bat
+.build/
+tcc.zip
+
+# local build artifacts
+*.o
+*.obj
+*.ilk
+*.pdb
